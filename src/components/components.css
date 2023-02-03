@@ -6,8 +6,13 @@
 .scheme_c{
     width: 750px;
 }
+.card-body{
+  background-color: ghostwhite;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px;
+}
 
-.center {
+.center{
     margin: auto;
     width: 60%;
     padding: 10px;
@@ -123,5 +128,10 @@
   .text_b{
     color: white;
 
+}
+
+
+.title{
+  font-weight: 700;
 }
 

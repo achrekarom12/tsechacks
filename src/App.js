@@ -8,17 +8,19 @@ import Blogs from './components/blogs';
 import Chat from './components/chat';
 import Jobs from './components/jobs';
 import Footer from "./components/footer";
-import background from './assets/bg.jpg'
+import BlogPost from "./components/blog_post";
+import Login from "./components/login";
+import Register from "./components/register";
+import Start from "./components/start";
+import Resume from "./components/resume";
+import background from './assets/bg.jpg';
+
 
 
 function App() {
   return (
     <>
-    <div style={{backgroundImage: `url(${background})`,
-                backgroundRepeat: 'no-repeat',
-                backgroundImage : 'behind'}}>
-      Hello World!
-    </div>
+    
     <Router>
       <div className="container ">
         <Navbar />
@@ -29,8 +31,13 @@ function App() {
           <Route path="/chat" element={<Chat />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/jobs" element={<Jobs />} />
+          <Route path="/blogpost" element={<BlogPost />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/start" element={<Start />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
-        <Footer />
+      <Footer/>
       </div>
     </Router>
     </>

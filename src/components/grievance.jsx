@@ -1,7 +1,8 @@
 import React from "react";
 import "./components.css";
-
-function grievance() {
+import {useState} from 'react'
+function Grievance() {
+  const [state, setState] = useState('A')
   return (
     <div>
       <br />
@@ -18,39 +19,31 @@ function grievance() {
             <textarea
               className="form-control"
               aria-label="With textarea"
-            ></textarea>
+            />  
           </div>
           <br />
           <label for="exampleInputPassword1" className="form-label m-2  ">
             Choose your Ward:
           </label>
-          <div className="dropdown">
-            <button
-              className="btn btn-secondary dropdown-toggle"
-              type="button"
-              id="dropdownMenuButton"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Wards
-            </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a className="dropdown-item" href="/">
-                Ward A
-              </a>
-              <a className="dropdown-item" href="/">
-                Ward B
-              </a>
-              <a className="dropdown-item" href="/">
-                Ward C  
-              </a>
-            </div>
-          </div>
+          <label htmlFor="inputPassword4" className="form-label"></label>
+          <select id="inputState" className="form-select" name="ward" onChange={(e) => {setState(e.target.value)}}>
+            <option value="A">Ward A</option>
+            <option value="B">Ward B</option>
+            <option value="C">Ward C</option>
+            <option value="D">Ward D</option>
+            <option value="E">Ward E</option>
+            <option value="F">Ward F</option>
+          </select>
+          <br />
           <div className="center_h">
             <button type="submit" className="btn btn-primary">
               Submit
             </button>
+          </div>
+          <div className="text-center py-5">
+            <h5>
+              Note: PwD Officer for ward {state} is Mr Rahul. Contact him on 999-9999-999
+            </h5>
           </div>
         </form>
       </div>
@@ -58,4 +51,4 @@ function grievance() {
   );
 }
 
-export default grievance;
+export default Grievance;
