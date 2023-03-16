@@ -84,9 +84,9 @@ function Resume() {
                         <div className="col-md-6">
                             <label htmlFor="inputCity" className="form-label">Interested in</label>
                             <select className="form-select" name='interest' onChange={getInputs}>
-                                <option value="">Service</option>
-                                <option value="">Student</option>
-                                <option value="">Business</option>
+                                <option value="Technical">Technical</option>
+                                <option value="Creativity">Creativity</option>
+                                <option value="Language">Language</option>
                             </select>
                         </div>
                         <div className="col-md-6">
@@ -134,10 +134,14 @@ function Resume() {
                             alignItems: 'center',
                             marginTop: '7px'
                         }}>
-                            <h6>
+                            <h6 style={{
+                                color:'white'
+                            }}>
                                 <FaPhone /> {data.contact} |
                             </h6>
-                            <h6>
+                            <h6 style={{
+                                color:'white'
+                            }}>
                                 <BiMailSend /> {data.email}
                             </h6>
                         </div>

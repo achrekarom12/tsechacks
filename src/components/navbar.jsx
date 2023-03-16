@@ -61,7 +61,7 @@ const Navbar = () => {
     //   </div>
     // </nav>
     <div className='navbar d-flex'>
-        <h2 className='title'>Welcome</h2>
+        <h2 className='title' style={{color:'rgba(11, 0, 109)'}}>Normal.</h2>
         <div id='navbar_links_div'>  
           <a href="/" style={{textDecoration: 'none', color: 'black'}} id="home_link" className='navbar_links'>Home</a>
           <a href="/jobs" style={{textDecoration: 'none', color: 'black'}} className='navbar_links'>Find Jobs</a>

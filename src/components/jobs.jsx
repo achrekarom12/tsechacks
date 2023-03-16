@@ -92,7 +92,7 @@ function Jobs() {
           <h2 style={{color: 'rgb(17, 0, 100)'}}>Web Developer</h2>
           <p style={{display: 'inline-block', fontSize: 13, color: 'rgb(17, 0, 100)'}}>Mumbai</p>
           <p style={{display: 'inline-block', marginLeft: '30%', fontSize: 13, marginTop: '5%', color: 'rgb(17, 0, 100)'}}>Part Time</p>
-          <p style={{marginTop: '30%', fontSize: 10, color: 'gray'}}>Posted 1 days ago</p>
+          <p style={{marginTop: '0%', fontSize: 10, color: 'gray'}}>Posted 1 days ago</p>
           <p style={{fontSize: 12, color: 'rgb(17, 0, 100)', display: 'inline-block'}}>Logitech Audio Group</p>
           <button className="apply_btn">Apply</button>
         </div>
@@ -101,16 +101,16 @@ function Jobs() {
           <h2 style={{color: 'rgb(17, 0, 100)'}}>App Developer</h2>
           <p style={{display: 'inline-block', fontSize: 13, color: 'rgb(17, 0, 100)'}}>Bangalore</p>
           <p style={{display: 'inline-block', marginLeft: '30%', fontSize: 13, marginTop: '5%', color: 'rgb(17, 0, 100)'}}>Full Time</p>
-          <p style={{marginTop: '30%', fontSize: 10, color: 'gray'}}>Posted 3 days ago</p>
+          <p style={{marginTop: '0%', fontSize: 10, color: 'gray'}}>Posted 3 days ago</p>
           <p style={{fontSize: 12, color: 'rgb(17, 0, 100)', display: 'inline-block'}}>Logitech Audio Group</p>
           <button className="apply_btn">Apply</button>
         </div>
         <div className='offer_tiles'>
           <p className='offer_category' style={{fontSize: 15}}>Design & Development</p>
-          <h2 style={{color: 'rgb(17, 0, 100)'}}>DB Engineer</h2>
+          <h2 style={{color: 'rgb(17, 0, 100)'}}>Database Engineer</h2>
           <p style={{display: 'inline-block', fontSize: 13, color: 'rgb(17, 0, 100)'}}>Chennai</p>
           <p style={{display: 'inline-block', marginLeft: '30%', fontSize: 13, marginTop: '5%', color: 'rgb(17, 0, 100)'}}>Full Time</p>
-          <p style={{marginTop: '30%', fontSize: 10, color: 'gray'}}>Posted 3 days ago</p>
+          <p style={{marginTop: '0%', fontSize: 10, color: 'gray'}}>Posted 3 days ago</p>
           <p style={{fontSize: 12, color: 'rgb(17, 0, 100)', display: 'inline-block'}}>Logitech Audio Group</p>
           <button className="apply_btn">Apply</button>
         </div>
